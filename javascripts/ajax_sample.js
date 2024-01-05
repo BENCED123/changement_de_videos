@@ -1,28 +1,4 @@
-// function getData() {
-//   // 1. Générer un objet XMLHttpRequest
-//   const request = new XMLHttpRequest(); //-- 1
 
-//   // 2. Mettre en place des gestionnaires d'événements dans l'objet XMLHttpRequest et mettre en place un traitement pendant la communication
-//   request.onreadystatechange = function() {
-//   console.log("Ready state:", request.readyState); // Log the readyState
-//   if (request.readyState == 4) {
-//     console.log("Status:", request.status); // Log the HTTP status
-//     if (request.status == 200) {
-//       console.log(request.response);
-//     } else {
-//       console.error('La requête n\'a pas abouti avec succès. Statut : ' + request.status);
-//     }
-//   }
-// };
-
-//   // 3. Envoyer la demande
-//   request.open("GET", "../ajax.json"); //-- 3-1
-//   request.responseType = "json"; //-- 3-2
-//   request.send(); //-- 3-3
-// }
-
-// // Exécuter getData après le chargement de la fenêtre
-// window.onload = getData;
 let number = 0;
 let videos = [];
 const videoArea = document.getElementById("video");
